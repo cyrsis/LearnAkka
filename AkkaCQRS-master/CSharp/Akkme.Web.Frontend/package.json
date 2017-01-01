@@ -1,0 +1,17 @@
+{
+  "name": "Akkme.Web.Frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
+  },
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "react": "^0.13.3",
+    "typescript": "^1.7.5"
+  }
+}
